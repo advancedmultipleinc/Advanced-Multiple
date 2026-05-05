@@ -10,11 +10,16 @@ const nextConfig = {
         pathname: '/uploads/**',
       },
       {
+        protocol: 'http',
+        hostname: 'tahanazir-001-site4.atempurl.com',
+        pathname: '/uploads/**',
+      },
+      {
         protocol: 'https',
         hostname: 'images.pexels.com',
-      }
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
