@@ -68,9 +68,11 @@ export default function CompanyIntro({ data }: CompanyIntroProps) {
       ? "object-right"
       : "object-center";
 
-  const imageUrl = data?.image?.data?.attributes?.url
+  const cmsImageUrl = data?.image?.data?.attributes?.url
     ? getStrapiMedia(data.image.data.attributes.url)
-    : "/images/about-hero.jpg";
+    : null;
+
+  const imageUrl: string = cmsImageUrl || "/images/about-hero.jpg";
   const imageAlt = data?.image?.data?.attributes?.alternativeText || "About Advanced Multiple";
 
   return (
