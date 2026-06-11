@@ -69,3 +69,10 @@ npm run start
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Strapi Documentation](https://docs.strapi.io/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## Author
+
+**Abdullah Siddique**
+- Website: [https://www.abdullahsiddique.co.uk/](https://www.abdullahsiddique.co.uk/)
+- LinkedIn: [https://www.linkedin.com/in/mr-abdullah-siddique/](https://www.linkedin.com/in/mr-abdullah-siddique/)
+- Email: abdullahsiddique773@gmail.com
