@@ -74,6 +74,10 @@ export default async function RootLayout({
     return (
       <html lang={params.lang}>
         <head>
+          <meta
+            name="google-site-verification"
+            content="ZyFKgr-YLYlRLU9t8xA8WBpZwWry8tVd1ratIl62Few"
+          />
           <link rel="icon" href="/images/ami-logo.png" type="image/png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -108,6 +112,10 @@ export default async function RootLayout({
   return (
     <html lang={params.lang}>
       <head>
+        <meta
+          name="google-site-verification"
+          content="ZyFKgr-YLYlRLU9t8xA8WBpZwWry8tVd1ratIl62Few"
+        />
         <link rel="icon" href="/images/ami-logo.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
