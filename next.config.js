@@ -16,6 +16,11 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'cms.advancedmultiple.com',
+        pathname: '/uploads/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'images.pexels.com',
       },
     ],
